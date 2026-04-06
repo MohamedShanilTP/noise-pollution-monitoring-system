@@ -1,17 +1,5 @@
 # 🔊 Noise Pollution Monitoring System
 
-
----
-
-# 🚀 Final polish (takes 2 mins)
-
-Add this at top of README:
-
-```markdown
-![STM32](https://img.shields.io/badge/STM32-Embedded-blue)
-![DSP](https://img.shields.io/badge/DSP-FFT-green)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-
 ## 📌 Overview
 The Noise Pollution Monitoring System is a real-time embedded solution designed to measure and analyze environmental noise using Digital Signal Processing (DSP) techniques. 
 
@@ -109,14 +97,18 @@ Main functionalities:
 
 All source code is available in the `code/main.c` file.
 
-```c
-// Convert RMS to dBFS
-overall_dBFS = 20.0f * log10f(rms_val);
+## 💻 Code Implementation
 
-// Activate buzzer if threshold exceeded
-if (overall_dBFS >= ALARM_DB_THRESHOLD) {
-    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_SET);
-}
+The system is implemented using Embedded C on STM32F411.
+
+Main functionalities:
+- I2S-based audio sampling using DMA
+- RMS calculation for sound intensity
+- FFT computation using CMSIS-DSP
+- OLED display for real-time visualization
+- Threshold-based buzzer alert system
+
+All source code is available in the `code/main.c` file.
 
 
 ## 👨‍💻 Authors
