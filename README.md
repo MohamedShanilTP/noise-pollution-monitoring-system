@@ -72,7 +72,7 @@ It uses an STM32F411 microcontroller and a MEMS microphone to capture sound, com
 ---
 
 ## 📄 Project Report
-[Download Full Report](doc/project-report.pdf)
+[Download Full Report](docs/project-report.pdf)
 
 ---
 
