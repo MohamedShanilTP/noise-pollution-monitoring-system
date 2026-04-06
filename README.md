@@ -62,19 +62,17 @@ It uses an STM32F411 microcontroller and a MEMS microphone to capture sound, com
 ---
 
 ## 📷 Output
-(Add your output image here)  
-![Output](images/output.jpg)
+![Output](output.png)
 
 ---
 
 ## 🔧 Block Diagram
-(Add your block diagram image here)  
-![Block Diagram](images/block.png)
+![Block Diagram](block.png)
 
 ---
 
 ## 📄 Project Report
-[Download Full Report](docs/project-report.pdf)
+[Download Full Report](project-report.pdf)
 
 ---
 
